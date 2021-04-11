@@ -1,0 +1,19 @@
+<mvc:View 
+controllerName="treinamento.l4e.app.controller.Menu" 
+xmlns:mvc="sap.ui.core.mvc" 
+displayBlock="true" 
+xmlns="sap.m">
+     <Page showHeader="true" title="Menu" titleAligment="center" backgroundDesign="Solid">
+        <content>
+            <VBox width="100%">
+                <Image src="images/plataforma.jpg" width="100%" height="100%"/>
+                    <List>
+                        <items>
+                            <StandardListItem title="Cadastro de  plataformas" type="Active"></StandardListItem>                            
+                            <StandardListItem title="Consulta de  plataformas" type="Active"></StandardListItem>
+                        </items>
+                    </List>
+            </VBox>
+        </content>
+     </Page>
+</mvc:View>
