@@ -4,7 +4,7 @@
     {
       "label": "Build CRUD_Plataforma",
       "type": "shell",
-      "command": "if [ ! -f ${workspaceFolder}/crud-plataforma-approuter/node_modules/@sap/html5-repo-mock/index.js ] || [ ! -f ${workspaceFolder}/crud-plataforma-approuter/node_modules/@sap/approuter/approuter.js ]; then npm i @sap/approuter && npm i @sap/html5-repo-mock; fi",
+      "command": "npm i",
       "options": {
         "cwd": "${workspaceFolder}/crud-plataforma-approuter"
       }

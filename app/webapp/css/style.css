@@ -1,4 +1,39 @@
 /* Enter your custom styles here */
-.fonte{   
-     font-family: Helvetica;
+
+/*Header das páginas branco*/
+.sapMPageHeader{
+     background-color: #FFFFFF !important;     
+     
 }
+
+/*Aumentando a descrição*/
+#__title0{
+     font-size: 17px  !important;
+}   
+
+/*Deixando sem bordas*/
+.sapMTBStandard {
+     border-bottom: solid .0rem;      
+     
+ }
+
+ .sapMBar {    
+     box-shadow: inset 0 -0.0625rem #fafafa;
+ }
+
+ .sapUiFormTitle {
+     border-bottom: 0ch; 
+   
+}
+ /*Tela cabeçalho rosa
+ .sapMTBHeader-CTX {
+ background-color: #FF8A83 !important;   
+ }*/
+
+
+
+
+ /*Cor do Scroll*/
+ html.sap-desktop:not(.sapUiNativeScrollbars) ::-webkit-scrollbar-thumb {
+     background-color: #4f667a67;
+ }

@@ -15,8 +15,7 @@
       "cwd": "${workspaceFolder}/app",
       "env": {
         "PORT": "6004",
-        "MOCK_LOOKUP_DIRS": "[\"webapp\"]",
-        "run.config": "{\"handlerId\":\"ui5_run_config_handler_id\",\"runnableId\":\"/home/user/projects/CRUD_Plataforma/app\"}"
+        "MOCK_LOOKUP_DIRS": "[\"webapp\"]"      
       },
       "envFile": "${workspaceFolder}/app/.env1",
       "preLaunchTask": "Build CRUD_Plataforma"
