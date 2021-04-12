@@ -24,7 +24,10 @@ xmlns="sap.m">
                     </Column>   
                     <Column demandPopin="true" minScreenWidth="Desktop">
                         <Label wrapping="true" text="Status" design="Bold"></Label>
-                    </Column>           
+                    </Column>  
+                    <Column demandPopin="true" minScreenWidth="Desktop">
+                        <Label wrapping="true" text="Tipo" design="Bold"></Label>
+                    </Column>             
                     <Column demandPopin="true" minScreenWidth="Desktop">
                         <Label wrapping="true" text="Data de Criação" design="Bold"></Label>
                     </Column>
@@ -39,6 +42,7 @@ xmlns="sap.m">
                             <Text text="{Plataforma>id}"></Text>
                             <Text text="{Plataforma>nome}"></Text>
                             <ObjectStatus text="{= ${Plataforma>status} === 'A' ? 'Ativo' : 'Inativo'}" inverted="true" state="{= ${Plataforma>status} === 'A' ? 'Success' : 'Error'}"></ObjectStatus>
+                             <Text text="{Plataforma>tipo}"></Text>
                             <Text text="{Plataforma>criado}"></Text>
                             <Text text="{Plataforma>atualizado}"></Text>
                             </cells>
