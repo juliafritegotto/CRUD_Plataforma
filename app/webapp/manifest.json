@@ -88,9 +88,19 @@
                     "pattern": "",
                     "target": ["Menu", "CadastroPlataforma"]
                 },
-                   {
+                {
                     "name": "CadastroPlataforma",
-                    "pattern": "",
+                    "pattern": "CadastroPlataforma",
+                    "target": ["Menu", "CadastroPlataforma"]
+                },
+                {
+                    "name": "ConsultaPlataforma",
+                    "pattern": "ConsultaPlataforma",
+                    "target": ["Menu", "ConsultaPlataforma"]
+                },
+                {
+                    "name": "EditarPlataforma",
+                    "pattern": "EditarPlataforma/{id}",
                     "target": ["Menu", "CadastroPlataforma"]
                 }
 
@@ -117,6 +127,14 @@
                     "clearControlAggregation": false,
                     "viewId": "cadastroplataforma",
                     "viewName": "CadastroPlataforma",
+                    "controlAggregation": "detailPages"
+                },
+                "ConsultaPlataforma": {
+                    "viewType": "XML",
+                    "transition": "slide",
+                    "clearControlAggregation": false,
+                    "viewId": "consultaplataforma",
+                    "viewName": "ConsultaPlataforma",
                     "controlAggregation": "detailPages"
                 }
             }
